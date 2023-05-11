@@ -1,8 +1,5 @@
 body{
-    background-image: url(/image/backg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: aqua;
+    background-color: rgb(241,241,242);
 }
 
 #inner{
@@ -11,8 +8,13 @@ body{
     margin-left: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#nav{
-    margin-left: 30px;
+#nav2{
+    margin-left: 5px;
+    color: rgb(47, 0, 255);
+    
+}
+#nav2:hover {
+    color: white;
 }
 
 .nas{
@@ -26,21 +28,29 @@ body{
 
 }
 #home{
-    margin-left: 60px;
+    margin-left: 24px;
+    color: rgb(30, 0, 255);
+    font-size: px;
+}
+#home:hover {
+    color: white;
+}
+#us{
+    margin-left: 2%;
 }
 #phone{
-    margin-left: -100px;
+    margin-left: 70px;
 }
 
 #logo{
-    margin-left: -200%;
+    margin-left: -180%;
 }
 #input{
-    width: 250px;
+    width: 200px;
 }
 .marquee{
     width: 70%;
-    color: rgb(239, 235, 235);
+    color: rgb(26, 4, 4);
     font-family: cursive;
 }
 #PHONE{
@@ -62,7 +72,7 @@ body{
 
 }
 #pic1{
-    height: 55%;
+    height: 58%;
     width: 287px;
     margin-left: -5%;
 }
