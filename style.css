@@ -1,0 +1,92 @@
+body{
+    background-image: url(/image/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: aqua;
+}
+
+#inner{
+    color: rgb(15, 15, 38);
+    font-size: 13px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav{
+    margin-left: 30px;
+}
+
+.nas{
+    margin-left: -15%;
+    line-height: 20px;
+    font-size: 25px;
+}
+
+#icon{
+    margin-left: -80%;
+
+}
+#home{
+    margin-left: 60px;
+}
+#phone{
+    margin-left: -100px;
+}
+
+#logo{
+    margin-left: -200%;
+}
+#input{
+    width: 250px;
+}
+.marquee{
+    width: 70%;
+    color: rgb(239, 235, 235);
+    font-family: cursive;
+}
+#PHONE{
+    color: black;
+}
+.span{
+    color: blue;
+}
+
+#LOGO{
+    color: blue;
+}
+#book{
+    margin-left: 25%;
+}
+#nas1{
+    width: 100%;
+    height: 250px;
+
+}
+#pic1{
+    height: 55%;
+    width: 287px;
+    margin-left: -5%;
+}
+#pic2{
+    height: 58%;
+}
+#pic3{
+    height: 58%;
+    width: 288px;
+    margin-left: -5%;
+}
+
+#iphonee{
+    margin-left: 18%;
+}
+.video{
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+}
+#vid{
+    margin-left: 28%;
+    width: 40%;
+}
