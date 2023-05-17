@@ -1,6 +1,117 @@
 body{
     background-color: rgb(241,241,242);
 }
+.firstTop {
+    display: flex;
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: -10px;
+
+    
+}
+
+
+
+
+#img {
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+#top1 {
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(3, 45, 96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#top1:hover{
+    color: rgb(1,118,211);
+}
+.reg{
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(3, 45, 96);
+    font-size: 15px;
+    font-weight: 700;
+}
+.reg:hover{
+    color: rgb(1,118,211);
+}
+.serh{
+    margin-top: 30px;
+    margin-left: 3%;
+
+
+}
+#searchin{
+    margin-left: -15%;
+}
+#input{
+    height: 50%;
+    border-radius: 15px;
+    border-color: aqua;
+}
+#searching{
+    margin-left: 20px;
+    width: 25%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#top2 {
+    margin-left: 100px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(3, 45, 96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#top2:hover {
+    text-decoration: underline;
+
+}
+
+#top3 {
+    margin-top: 30px;
+    padding-top: 10px;
+    border: 1px;
+    height: 45px;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 9px;
+    padding-left: 45px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(81, 155, 81);
+    color: white;
+    font-family: sans-serif
+    
+}
+
+#top3:hover {
+    background-color: black;
+}
+
+
+
+#top4 {
+    padding-top: 20px;
+    margin: px;
+
+}
 
 #inner{
     color: rgb(15, 15, 38);
@@ -10,11 +121,17 @@ body{
 }
 #nav2{
     margin-left: 5px;
-    color: rgb(47, 0, 255);
+    color: rgb(3,45,96);
     
 }
+.swap{
+    font-size: 13px;
+}
 #nav2:hover {
-    color: white;
+    color: rgb(1,118,214);
+}
+.hr{
+    color: red;
 }
 
 .nas{
@@ -28,36 +145,41 @@ body{
 
 }
 #home{
-    margin-left: 24px;
-    color: rgb(30, 0, 255);
-    font-size: px;
+    margin-left: 20px;
+    color: rgb(3,45,96);
 }
 #home:hover {
-    color: white;
-}
-#us{
-    margin-left: 2%;
-}
-#phone{
-    margin-left: 70px;
+    color: rgb(202, 209, 214);
 }
 
+
 #logo{
-    margin-left: -180%;
+    position: relative;
+    left: -30%;
 }
 #input{
     width: 200px;
 }
 .marquee{
     width: 70%;
-    color: rgb(26, 4, 4);
+    color: rgb(3,45,96);
     font-family: cursive;
+    margin-top: 10%;
+    font-size: 19px;
 }
-#PHONE{
-    color: black;
+#phone2{
+    color: rgb(58, 10, 10);
+    
 }
-.span{
+#phone{
+    margin-left: -20%;
+}
+.nun{
     color: blue;
+}
+
+.spann{
+    color: rgb(22, 1, 1);
 }
 
 #LOGO{
