@@ -26,12 +26,12 @@ body{
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(3, 45, 96);
+    color:  rgb(3, 45, 96);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 #top1:hover{
-    color: rgb(1,118,211);
+    color:brown;
 }
 .reg{
     margin-top: 40px;
@@ -41,7 +41,7 @@ body{
     font-weight: 700;
 }
 .reg:hover{
-    color: rgb(1,118,211);
+    color: brown;
 }
 .serh{
     margin-top: 30px;
@@ -62,9 +62,15 @@ body{
     width: 25%;
     height: 40%;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(3, 45, 96);
     font-size: 12px;
     font-weight: 700;
+    color: white;
+}
+#searching:hover{
+    color: white;
+    background-color: brown;
+
 }
 
 #top2 {
@@ -131,7 +137,7 @@ body{
     color: rgb(1,118,214);
 }
 .hr{
-    color: red;
+    color: rgb(3,45,96);
 }
 
 .nas{
@@ -144,10 +150,10 @@ body{
     margin-left: -80%;
 
 }
-#home{
+/* #home{
     margin-left: 20px;
     color: rgb(3,45,96);
-}
+} */
 #home:hover {
     color: rgb(202, 209, 214);
 }
@@ -164,7 +170,7 @@ body{
     width: 70%;
     color: rgb(3,45,96);
     font-family: cursive;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 19px;
 }
 #phone2{
@@ -198,8 +204,17 @@ body{
     width: 287px;
     margin-left: -5%;
 }
+#pic1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 #pic2{
     height: 58%;
+}
+
+#pic2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 #pic3{
     height: 58%;
@@ -207,6 +222,33 @@ body{
     margin-left: -5%;
 }
 
+#pic3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#pic4{
+    width: 110%;
+    margin-left: -5%;
+}
+#pic4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+#pic22{
+    width: 109%;
+    margin-left: -5%;
+}
+#pic22:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+#pic11:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 #iphonee{
     margin-left: 18%;
 }
@@ -217,8 +259,14 @@ body{
     margin-top: 5%;
     width: 50%;
     margin-left: 25%;
+
 }
 #vid{
     margin-left: 28%;
     width: 40%;
+}
+#para{
+    color: rgb(3,45,96);
+    font-size: 12px;
+    font-weight: 700;
 }
