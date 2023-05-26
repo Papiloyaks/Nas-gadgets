@@ -1,5 +1,7 @@
 body{
     background-color: rgb(241,241,242);
+    overflow-x: hidden;
+    
 }
 .firstTop {
     display: flex;
@@ -11,6 +13,13 @@ body{
 
     
 }
+#fill{
+    position: relative;
+    top: 35px;
+    left: -1%;
+}
+
+
 
 
 
@@ -200,16 +209,26 @@ body{
 
 }
 #pic1{
-    height: 58%;
-    width: 287px;
-    margin-left: -5%;
+    height: 50%;
+    width: px;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+#radio{
+    border-radius: 10px;
+
+}
+
+#roww{
+    margin-top: 20%;
 }
 #pic1:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
 #pic2{
-    height: 58%;
+    height: 50%;
+    border-radius: 20px;
 }
 
 #pic2:hover{
@@ -217,9 +236,10 @@ body{
     cursor: pointer;
 }
 #pic3{
-    height: 58%;
-    width: 288px;
-    margin-left: -5%;
+    height: 50%;
+    width: 240px;
+    margin-left: 5%;
+    border-radius: 10px;
 }
 
 #pic3:hover{
@@ -236,22 +256,25 @@ body{
     
 }
 #pic22{
-    width: 109%;
-    margin-left: -5%;
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 20px;
 }
 #pic22:hover{
     transform: scale(1.1);
     cursor: pointer;
 
 }
+#pic11{
+    border-radius: 20px;
+}
 
 #pic11:hover{
     transform: scale(1.1);
     cursor: pointer;
+
 }
-#iphonee{
-    margin-left: 18%;
-}
+
 .video{
     border: 1px solid;
     border-radius: 30px;
@@ -270,3 +293,459 @@ body{
     font-size: 12px;
     font-weight: 700;
 }
+
+#myH{
+    margin-top: 8%;
+    color: rgb(3, 45, 96);
+}
+
+
+
+#watch {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(21,115,71);
+    top: 15px;
+    left: 80px;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+
+.wath{
+    color: white;
+    text-decoration: none;
+}
+
+#watch:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 23, 22);
+}
+#watch1:hover{
+        color: rgb(255, 255, 255);
+    background-color: rgb(20, 23, 22);
+}
+#watch1 {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(21,115,71);
+    top: 13px;
+    left: 90px;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.wathh{
+    color: white;
+    text-decoration: none;
+}
+#watch {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(21,115,71);
+    top: 15px;
+    left: 80px;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+
+
+
+#watch2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 23, 22);
+}
+/* #watch2:hover{
+        color: rgb(255, 255, 255);
+    background-color: rgb(20, 23, 22);
+} */
+#watch2 {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(21,115,71);
+    top: 13px;
+    left: 15px;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.wathhT{
+    color: white;
+    text-decoration: none;
+}
+#watch3 {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(21,115,71);
+    top: 13px;
+    left: 20%;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+#watch3:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#para2{
+    margin-left: 30%;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(1,118,214);
+}
+
+
+
+.busOne {
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  rgb(3,45,96);
+    font-weight: 700;
+}
+
+
+.busTwo {
+    margin-left: 30%;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  rgb(3,45,96);
+    font-weight: 700;
+}
+
+
+.busThree {
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.appone {
+    color: rgb(1,118,214);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20%;
+    
+
+}
+.apptwo{
+    margin-left: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(1,118,214);
+}
+.appthree{
+    color: rgb(1,118,214);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+#form{
+    color: rgb(1,118,214);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#form2{
+    color: rgb(1,118,214);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 18%;
+    margin-top: 7%;
+}
+
+#row{
+    margin-top: 10%;
+}
+
+#row1{
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+#row2{
+    margin-left: 19%;
+    margin-top: 2%;
+}
+#row3{
+    margin-left: 19%;
+    margin-top: 2%;
+}
+#promax:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#cardd{
+    border: 0px solid white;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+#hIP{
+    color: rgb(3,45,96);
+    font-weight: 700;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para1{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(3,45,96);
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+#myHh{
+    color: rgb(3,45,96);
+    font-weight: 700;
+    margin-top: 10%
+}
+#os{
+    margin-left: 33%;
+    margin-top: 5%;
+    border: 0px;
+}
+#deal{
+    font-size: 20px;
+    color: rgb(12, 105, 220);
+}
+#promax1{
+    margin-left: 20%;
+}
+#promax1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#heroo{
+    border-radius: 50px;
+
+
+
+}
+#herd{
+    margin-top: 10%;
+    border: 0px;
+}
+#pod{
+    color: white;
+    font-weight: 700;
+    margin-left: 29%;
+    margin-top: 10%;
+    font-size: 100px;
+    line-height: 70px;
+
+}
+#airpod{
+    width: 70px;
+
+}
+#airpod2{
+    width: 70px;
+    margin-left: 5%;
+}
+#compare{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+#compare:hover{
+    transform: scale(1.2);
+}
+#compar1{
+    position: relative;
+    left: 3%;
+    height: 400px;
+   
+}
+#compar2{
+    height: 400px;
+    margin-left: 5%;
+    
+}
+#compar3{
+    height: 400px;
+    margin-left: 2%;
+    
+    
+}
+.busOnE {
+    margin-left: 35%;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  rgb(3,45,96);
+    font-weight: 700;
+}
+#formm{
+    color: rgb(1,118,214);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+.busTwO {
+    margin-left: 35%;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  rgb(3,45,96);
+    font-weight: 700;
+}
+#button {
+    
+    position: relative;
+    color:  rgb(3,45,96);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(21,115,71);
+    top: 15px;
+    left: 33%;
+    border: 1px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+#button:hover{
+    background-color: black;
+    color: rgb(202, 209, 214);
+
+}
+#Airp{
+    margin-top: 8%;
+    font-weight: 700;
+    color: rgb(3, 45, 96);
+    font-family: sans-serif;
+    font-size: 50px;
+}
+#local{
+    width: 9%;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+#HELP{
+    margin-top: 5%;
+    border: 0px;
+}
+#fast{
+    padding-left: 32%;
+    font-weight: 500;
+    color: rgb(1,118,214);
+}
+#fast1{
+    padding-left: 12%;
+    font-size: 15px;
+    color: rgb(3,45,96);
+    font-weight: 400;
+    font-size: 17px;
+}
+#click{
+    font-size: 18px;
+    
+}
+#click:hover{
+    color: seagreen;
+
+}
+.head{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    
+    
+}
+#leefs{  
+    height: 35vw;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 90px;
+}
+#child{
+    margin-top: 40px;
+    width: 20vw;
+    text-align: left;
+}
+#img11{
+    border: 1px solid rgb(222, 228, 234);
+    border-radius: 20px;
+    margin-left: 10%;
+}
+#down1{
+    font-size: 16px;
+    position: relative;
+    top: 2%;
+    left: 8%;
+
+    
+
+}
+
+#down2{
+    font-size: 15px;
+    color:  rgb(3,45,96);
+    position: relative;
+    top: 2%;
+    left: 8%;
+    
+
+}
+#down2:hover{
+    color: rgb(1,118,211);
+}
+
+#carry{
+    margin-top: 15px;
+    margin-left: 15%;
+}
+.move{
+    margin-top: 30px;
+}
+#para {
+    margin-top: -20px;
+    padding: 0px;
+    
+}
+#span1{
+    font-size: 20px;
+    color: rgb(68,68,68);
+}
+#desk{
+   text-decoration: none;
+   color: black;
+}
+#desk{
+    font-size: 12px;
+    color: rgb(11,92,171);
+    font-size: 19px;
+    font-weight: 400;
+    position: relative;
+    top: 10%;
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.js">
+        <style>
+            body {
+                background-color: rgb(17, 62, 62);
+                padding: 40px 0px 0px 0px;
+            }
+            h1 {
+                text-align: center;
+                color: rgb(86,86,86);
+                text-shadow: 2px 2px 2px rgb(59,186,223);
+                font-size: 50px;
+            }
+            #contain {
+                background-color: rgb(244, 247, 248);
+                height: 35vw;
+                display: flex;
+                border-radius: 20px !important;
+            }
+            #divOne {
+                background-color: white;
+                border-top-right-radius: 0px !important;
+                border-bottom-right-radius: 0px !important;
+                border-top-left-radius: 10px !important;
+                border-bottom-left-radius: 10px !important;
+            }
+            #button {
+                border: 0px;
+                background-color: rgb(21, 28, 242);
+                border-radius: 5px;
+                color: white;
+            }
+            #button:hover{
+                background-color: rgb(3, 45, 96);
+                
+            }
+            #h1 {
+                color: rgb(3, 45, 96);
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            ::placeholder {
+                color: rgb(3, 45, 96)!important;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #img1 {
+                float: right;
+                width: 35vh;
+                margin-left: 250px;
+                margin-top: 80px !important;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                margin-top: 8px;
+                opacity: 0.7;
+            }
+            input {
+                border: 2px solid rgb(3, 45, 96) !important;
+                padding: 7px !important;
+                border-radius: 10px !important;
+            }
+            h2 {
+                position: relative;
+                top: -250px;
+                text-align: center;
+                color: rgb(3, 95, 96);
+                font-size: 30px;
+                opacity: 0.8;
+                text-shadow: 3px 3px 3px white,-3px -3px 3px white;
+                font-weight: bold;
+            }
+            #mar{
+                width: 150%;
+                height: 100px;
+            }
+
+        </style>
+    </head>
+    <body id="body">
+        <marquee behavior="alternate" direction="">
+            <h1>NAS GADGETS WORLD</h1>
+        </marquee>
+        <div id="contain" class="col-lg-10 col-md-9 col-sm-7 mt-lg-4 mt-md-4 mt-sm-2 mx-auto shadow rounded p-3">
+            <div id="divOne" class="col-lg-6 col-md-7 col-sm-5 mt-lg-2 mt-md-2 mt-sm-2 shadow rounded p-4">
+                <h1 id="h1">SIGN UP</h1>
+                <input type="text" placeholder="First Name" id="fn" class="form-control my-2">
+                <input type="text" placeholder="Last Name" id="ln" class="form-control my-2">
+                <input type="text" placeholder="Email" id="em" class="form-control my-2">
+                <input type="text" placeholder="Password" id="ps" class="form-control my-2">
+                <button id="button" onclick="registerStudent()" class="btn btn-primary form-control my-4">Sign Up</button>
+            </div>
+            <div id="divTwo">
+                <img id="img1" src="image/Apple_logo_black.svg.png"  alt="">
+            </div>
+        </div>
+        <script>
+            var allStudents = []
+            if(localStorage.schoolPortal){
+                allStudents = JSON.parse(localStorage.getItem("schoolPortal"))
+                console.log(allStudents)
+            }
+            function registerStudent(){
+                var student = {
+                    firstname: fn.value,
+                    lastname: ln.value,
+                    email: em.value,
+                    password: ps.value
+                }
+                allStudents.push(student)
+                fn.value = ""
+                ln.value = ""
+                em.value = ""
+                ps.value = ""
+                localStorage.setItem("schoolPortal",JSON.stringify(allStudents))
+                window.location.href = "login.html"
+                console.log(allStudents)
+                
+            }
+        </script>
+    </body>
+</html>
