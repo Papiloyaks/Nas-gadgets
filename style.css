@@ -116,6 +116,7 @@ body{
     
 }
 
+
 #top3:hover {
     background-color: black;
 }
@@ -171,6 +172,11 @@ body{
 #logo{
     position: relative;
     left: -30%;
+}
+#hero{
+    width: 60%;
+    position: relative;
+    left: 23%;
 }
 #input{
     width: 200px;
@@ -278,10 +284,11 @@ body{
 .video{
     border: 1px solid;
     border-radius: 30px;
-    background-color: black;
+    background-color: rgb(3,45,96);
     margin-top: 5%;
     width: 50%;
     margin-left: 25%;
+    box-shadow: 1px 1px 1px 1px;
 
 }
 #vid{
@@ -503,23 +510,23 @@ body{
     cursor: pointer;
 }
 #cardd{
-    border: 0px solid white;
+    border: 0px;
     border-radius: 25px;
     background-color: white;
     
 }
+
 #hIP{
     color: rgb(3,45,96);
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #para1{
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(3,45,96);
-    margin-left: 20px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(1,118,211);
+    margin-left: 30px;
 }
 #myHh{
     color: rgb(3,45,96);
@@ -681,11 +688,12 @@ body{
     
 }
 #leefs{  
-    height: 35vw;
+    height: 30vw;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
     margin-top: 90px;
+    background-color: rgb(1,118,211);
 }
 #child{
     margin-top: 40px;
@@ -702,6 +710,7 @@ body{
     position: relative;
     top: 2%;
     left: 8%;
+    color: white;
 
     
 
@@ -709,15 +718,15 @@ body{
 
 #down2{
     font-size: 15px;
-    color:  rgb(3,45,96);
+    color:  rgb(238, 240, 243);
     position: relative;
-    top: 2%;
+    top: 15px;
     left: 8%;
     
 
 }
 #down2:hover{
-    color: rgb(1,118,211);
+    color: rgb(14, 16, 17);
 }
 
 #carry{
@@ -727,25 +736,148 @@ body{
 .move{
     margin-top: 30px;
 }
-#para {
+#paraa {
     margin-top: -20px;
     padding: 0px;
     
 }
 #span1{
     font-size: 20px;
-    color: rgb(68,68,68);
+    color: rgb(3, 45,96);
+    font-family: 'Times New Roman', Times, serif;
 }
 #desk{
    text-decoration: none;
-   color: black;
+   color: white;
+
+}
+#desk:hover{
+    text-decoration: underline;
+    color: rgb(3, 45, 96);
 }
 #desk{
     font-size: 12px;
-    color: rgb(11,92,171);
-    font-size: 19px;
+    color: rgb(245, 237, 237);
+    font-size: 17px;
     font-weight: 400;
     position: relative;
     top: 10%;
+    line-height: 40px;
+}
+#child1{
+    background-color: rgb(241, 241, 245);
+    width: 30%;
+    height: 70%;
+    margin-top: 50px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 4px rgba(245, 246, 248, 0.412);
+
+}
+/* ::placeholder{
+    width: 150px;
+    height: 50px;
+} */
+#holder{
+    margin-left: 15%;
+    height: 70px;
+    width: 300px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 3%;
+    border: 1px solid rgba(0, 198, 198, 0.548);
+    border-radius: 5px;
+
+    
+}
+#span11{
+    color: rgb(3, 45, 96);
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    left: 20%;
+    top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.email{
+    margin-left: 15%;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(1,118,211);
+    margin-top: 30px;
+    
+}
+#now{
+    margin-left: 15%;
+    width: 70%;
+    height: 50px;
+    background-color: rgb(3, 45, 96);
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0px;
+}
+#now:hover{
+    background-color: rgb(1,118,211);
+    color: black;
+}
+.myhr{
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(159, 29, 29);
+}
+.upper{
+    height: 10vh;
+}
+.yak{
+    position: relative;
+    left: 80%;
+    top: -25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(3, 45, 96);
+    font-family: cursive;
+
+}
+#yak{
+    font-size: 15px;
+    text-decoration: none;
+
+}
+#yak:hover{
+    color: green;
+}
+.copy{
+    margin-left: 10%;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(3, 45, 96);
+
+}
+#na{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#na:hover{
+    color: rgb(3, 45, 96);
+    text-decoration: underline;
+
+}
+#locate{
+    margin-top: 10%;
+}
+#block{
+    color: rgb(230, 205, 205);
+    text-decoration: none;
+    
+}
+#block:hover{
+    color: rgb(3, 45, 96);
+    text-decoration: underline;
 }
 
