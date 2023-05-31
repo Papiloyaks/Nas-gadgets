@@ -15,14 +15,23 @@ body{
 }
 #fill{
     position: relative;
-    top: 35px;
-    left: -1%;
+    top: 6px;
+    left: 13%;
+    z-index: 1;
 }
+.cartt:hover{
+    background-color: white;
+}
+.cartt{
+    border: 1px;
+    background-color: rgb(3, 45, 96);
+    width: 50px;
+    height: 45px;
+    margin-top: 28px;
+    border-radius: 500px;
+    margin-left: -15px;
 
-
-
-
-
+}
 
 #img {
     margin-left: 25px;
@@ -39,22 +48,59 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+#dropp{
+    margin-top: 35px;
+}
+#acct{
+    background-color: rgb(3, 45,96);
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+}
+#live{
+    border: 1px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(3, 45, 96);
+    color: white;
+}
+#live:hover{
+    transform: scale(1.1);
+}
+
+#menus{
+    border: 1px;
+    background-color: whitesmoke;
+  
+}
+
+#loged{
+    color: rgb(3,45,96);
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#loged:hover{
+    background-color: rgb(1,118,211);
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
 #top1:hover{
     color:brown;
 }
-.reg{
+/* .reg{
     margin-top: 40px;
     text-decoration: none;
     color: rgb(3, 45, 96);
     font-size: 15px;
     font-weight: 700;
-}
-.reg:hover{
-    color: brown;
-}
+} */
+
 .serh{
     margin-top: 30px;
-    margin-left: 3%;
+    margin-left: 4%;
 
 
 }
@@ -75,6 +121,7 @@ body{
     font-size: 12px;
     font-weight: 700;
     color: white;
+    border: 0px;
 }
 #searching:hover{
     color: white;
@@ -83,7 +130,7 @@ body{
 }
 
 #top2 {
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 25px;
     text-decoration: none;
     font-size: 18px;
@@ -288,7 +335,7 @@ body{
     margin-top: 5%;
     width: 50%;
     margin-left: 25%;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 1px 7px rgb(3,45,96);
 
 }
 #vid{
