@@ -15,38 +15,48 @@ body{
 }
 #fill{
     position: relative;
-    top: 6px;
-    left: 13%;
-    z-index: 1;
+    top: 30px;
+    left: -40px
+    
 }
-.cartt:hover{
-    background-color: white;
-}
-.cartt{
-    border: 1px;
-    background-color: rgb(3, 45, 96);
-    width: 50px;
-    height: 45px;
-    margin-top: 28px;
-    border-radius: 500px;
-    margin-left: -15px;
 
-}
 
 #img {
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 8px;
+}
+#circle{
+    position: relative;
+    left: 35px;
+    top: -20px;
 }
 
 #top1 {
-    margin: 15px;
     margin-top: 40px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
     text-decoration: none;
     color:  rgb(3, 45, 96);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     
+}
+#SE{
+    margin-left: -5%;
+
+}
+
+#top11 {
+    margin: 15px;
+    margin-left: -50px;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color:  rgb(3, 45, 96);
+    font-family: sans-serif;
+    
+}#top11:hover{
+    color: brown;
 }
 #dropp{
     margin-top: 35px;
@@ -90,13 +100,6 @@ body{
 #top1:hover{
     color:brown;
 }
-/* .reg{
-    margin-top: 40px;
-    text-decoration: none;
-    color: rgb(3, 45, 96);
-    font-size: 15px;
-    font-weight: 700;
-} */
 
 .serh{
     margin-top: 30px;
@@ -109,13 +112,14 @@ body{
 }
 #input{
     height: 50%;
+    /* width: 30px; */
     border-radius: 15px;
     border-color: aqua;
 }
 #searching{
-    margin-left: 20px;
-    width: 25%;
-    height: 40%;
+    margin-left: 17px;
+    width: 20%;
+    height: 45%;
     border-radius: 10px;
     background-color: rgb(3, 45, 96);
     font-size: 12px;
@@ -189,6 +193,7 @@ body{
 }
 .swap{
     font-size: 13px;
+    margin-left: -50%;
 }
 #nav2:hover {
     color: rgb(1,118,214);
@@ -535,6 +540,14 @@ body{
     margin-top: 7%;
 }
 
+#form3{
+    color: rgb(1,118,214);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
 #row{
     margin-top: 10%;
 }
@@ -596,12 +609,7 @@ body{
     transform: scale(1.1);
     cursor: pointer;
 }
-#heroo{
-    border-radius: 50px;
 
-
-
-}
 #herd{
     margin-top: 10%;
     border: 0px;
@@ -814,7 +822,7 @@ body{
 #child1{
     background-color: rgb(241, 241, 245);
     width: 30%;
-    height: 70%;
+    height: 78%;
     margin-top: 50px;
     border-radius: 9px;
     box-shadow: 1px 1px 1px 4px rgba(245, 246, 248, 0.412);
@@ -858,7 +866,7 @@ body{
 }
 #now{
     margin-left: 15%;
-    width: 70%;
+    width: 75%;
     height: 50px;
     background-color: rgb(3, 45, 96);
     color: white;

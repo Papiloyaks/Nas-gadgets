@@ -16,10 +16,10 @@
       <div class="top">
         <div class="firstTop">
             <a href=""><img id="img" src="./image/Capture33.PNG" width="60%" alt=""></a>
-            <a id="top1" href="">Home</a>
-            <a id="top1" href="">About us</a>
+            <a id="top11" href="">HOME</a>
+            <a id="top1" href="">HELP <img id="circle" src="./image/help-circle.png" width="20px" alt=""></a>
             <!-- <a id="top1" href="">FAQ</a> -->
-            <div id="dropp" class="dropdown ms-2">
+            <div id="dropp" class="dropdown ms-3">
               <button id="acct" class=" btn btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="./image/person.png" width="18%" alt=""> Account
               </button>
@@ -38,12 +38,12 @@
               <input id="input" type="text" placeholder="Search items"><span id=searchin><img src="./image/search_FILL0_wght400_GRAD0_opsz48.png" width="10%" alt=""></span>
               <button id="searching">SEARCH</button>
             </div>
-            <span class="cartt"><a id="fill" href=""><img src="./image/cart.png" width="36px" alt=""></a></span>
+            <span class="cartt"><a id="fill" href=""><img src="./image/cart.png" width="40px" alt=""></a></span>
             </div>
         </div>
     </div>
       <marquee class="marquee" behavior="" direction="left">N A S      -      G A D G E T S | LOKOJA PHONE STORE 
-        <p class="swap text-center">🌐We Buy, Sell, Swap New/Used Devices & Gadgets <img src="./image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" width="6%" alt=""></p>
+        <p class="swap text-center">🌐We Buy, Sell, Swap New/Used Devices & Gadgets <img src="./image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" width="2%" alt=""></p>
       </marquee>
       <hr class="hr">
       <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
@@ -70,7 +70,7 @@
       <div class="containerTwo mt-5">
         <h2 id="myH" class="text-center">All models. Take your pick</h2>
         <div id="row" class="row">
-          <div class="col-lg col-md-5 col-sm-11 ms-5">
+          <div id="SE" class="col-lg col-md-5 col-sm-11 ms-5">
             <img id="promax" src="./image/pro-promax (1).jpg" alt="">
             <h3 class="busOne">New
               iPhone 14 Pro & <br>
@@ -78,9 +78,9 @@
             <span class="appone">The ultimate iPhone.</span>
             <p id="form">From $999</p>
           <button id="watch" ><a class="wath" href="https://wa.me/c/2347041186144">Buy</a></button>
-          <button id="watch1" ><a class="wathh" href="">Add Cart</a></button>
+          <button id="watch1" onclick="saveTo('./image/pro-promax (1).jpg','$999','The ultimate iPhone.')" ><a class="wathh">Add Cart</a></button>
           </div>
-          <div class="col-lg col-md-5 col-sm-11">
+          <div id="SE" class="col-lg col-md-5 col-sm-11">
             <img id="promax" src="./image/pro-promax (8).jpg" alt="">
             <h3 class="busOne">New
               iPhone 14 & <br>
@@ -88,26 +88,26 @@
             <span class="appone">A total powerhouse.</span>
             <p id="form">From $799</p>
              <button id="watch" ><a class="wath" href="https://wa.me/c/2347041186144">Buy</a></button>
-             <button id="watch1" ><a class="wathh" href="">Add Cart</a></button>
+             <button id="watch1" onclick="saveTo('./image/pro-promax (8).jpg','$799','A total powerhouse')" ><a class="wathh">Add Cart</a></button>
           </div>
-          <div class="col-lg col-md-5 col-sm-11">
+          <div id="SE" class="col-lg col-md-5 col-sm-11">
             <img id="promax" src="./image/pro-promax (7).jpg" alt="">
             <h3 class="busTwo">iPhone 13 mini & <br>
               iPhone 13</h3>
             <span class="apptwo">As amazing as ever.</span> 
             </span>
-            <p id="form">From $599</p>
+            <p id="form3">From $599</p>
             <button id="watch" ><a class="wath" href="https://wa.me/c/2347041186144">Buy</a></button>
-            <button id="watch1" ><a class="wathh" href="">Add Cart</a></button>
+            <button id="watch1" onclick="saveTo('./image/pro-promax (7).jpg','$599','As amazing as ever.')"  ><a class="wathh">Add Cart</a></button>
           </div>
-          <div class="col-lg col-md-5 col-sm-11">
+          <div id="SES" class="col-lg col-md-5 col-sm-11">
             <img id="promax" src="./image/compare_iphone_se__d5blqx1pgymq_large.jpg" alt="">
             <h3 class="busTwo ms-5">iPhone SE <br> iPhone</h3>
-            <span class="appthree ms-4">Serious power. Serious value.</span> 
+            <span class="appthree ms-3">Serious power. Serious value.</span> 
             </span>
             <p id="form2">From $429</p>
             <button id="watch2" ><a class="wathh" href="https://wa.me/c/2347041186144">Buy</a></button>
-            <button id="watch2" ><a class="wathhT" href="">Add Cart</a></button>
+            <button id="watch2" onclick="saveTo('./image/compare_iphone_se__d5blqx1pgymq_large.jpg','$429','Serious power. Serious value.')"  ><a class="wathhT">Add Cart</a></button>
           </div>
           <h2 id="myH" class="text-center">We are dedicated to giving you the very best of Gadgets</h2>
       <div class="container-fluid">
@@ -349,6 +349,24 @@
         <div class="yak">Built with💖by <a id="yak" href="https://www.facebook.com/papilo.yaks">PAPILOYAKS</a></div>
       </div>
 
+      <script>
+        let allStudent = JSON.parse(localStorage.getItem("schoolPortal"))        
+        let storage = localStorage.getItem("userIndex")
+        // console.log(allStudent);
+        // console.log(storage);
+        // console.log(allStudent[storage].firstname);
+        document.getElementById("acct").innerHTML = `
+          Hi, ${allStudent[storage].firstname}
+        `
+
+        function saveTo (image, price, proName){
+          let map = {
+            image, price, proName
+          }
+          window.location.href = "cart.html"
+          localStorage.setItem("saveProduct",JSON.stringify(map))
+        }
+      </script>
       
 
       
