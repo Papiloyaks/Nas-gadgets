@@ -396,7 +396,7 @@ body{
     font-weight: 600;
     font-size: 15px;
     background-color: rgb(21,115,71);
-    top: 13px;
+    top: 9px;
     left: 90px;
     border: 1px;
     width: 80px;
@@ -415,7 +415,7 @@ body{
     font-weight: 600;
     font-size: 18px;
     background-color: rgb(21,115,71);
-    top: 15px;
+    top: 9px;
     left: 80px;
     border: 1px;
     width: 80px;
@@ -489,9 +489,18 @@ body{
     font-weight: 700;
 }
 
+.bus{
+    padding-left: 10%;
+    font-size: 18px;
+    margin-top: 20px;
+    color:  rgb(3,45,96);
+    font-weight: 700;
+
+}
+
 
 .busTwo {
-    margin-left: 30%;
+    padding-left: 30%;
     font-size: 18px;
     margin-top: 20px;
     color:  rgb(3,45,96);
@@ -529,23 +538,20 @@ body{
     color: rgb(1,118,214);
     font-size: 17px;
     font-weight: 600;
-    margin-left: 25%;
-    margin-top: 5%;
+    text-align: center;
 }
 #form2{
     color: rgb(1,118,214);
     font-size: 17px;
     font-weight: 600;
-    margin-left: 18%;
-    margin-top: 7%;
+    padding-left: 15%;
 }
 
 #form3{
     color: rgb(1,118,214);
     font-size: 17px;
     font-weight: 600;
-    margin-left: 40%;
-    margin-top: 5%;
+    text-align: center;
 }
 
 #row{
@@ -597,6 +603,7 @@ body{
     margin-left: 33%;
     margin-top: 5%;
     border: 0px;
+    width: 450px;
 }
 #deal{
     font-size: 20px;

@@ -1,6 +1,62 @@
-@media screen and (max-width:767px) {
-    #Airp{
-        font-size: 10px;
+@media screen and (max-width: 700px) {
+
+    body{
+        overflow-x: hidden;
     }
+    .crt{
+        margin-top: -15px;
+        
+    }
+    #form{
+        position: relative;
+        left: -15%;
+    }
+
+    #promax{
+        margin-top:  80px;
+    }
+
+    #SE{
+        margin-left: 30px;
+    }
+
+    .busTwo{
+        margin-left: -5%;
+        font-size: 18px;
+    }
+
+    #form3{
+        position: relative;
+        left: -15%;
+    }
+
+    #SES{
+        padding-left: 30%;
+    }
+
+    #myH{
+        padding-top: 40px;
+        font-size: 19px;
+    }
+
+    #para1{
+        color: rgb(238, 238, 46);
+    }
+
+    #os{
+        position: relative;
+        left: -30%
+    }
+
+    #os{
+        width: 400px;
+        height: auto;
+        
+        
+    }
+
+  
+
+    
     
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAS GADGETS WORLD FOR ALL YOUR ACCESSORIES</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/phone.css">
     <link rel="icon" href="./image/apple.png">
     <!-- <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"> -->
@@ -13,13 +14,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-      <div class="top">
-        <div class="firstTop">
+      <!-- <div class="top"> -->
+        <!-- <div class="firstTop">
             <a href=""><img id="img" src="./image/Capture33.PNG" width="60%" alt=""></a>
             <a id="top11" href="">HOME</a>
             <a id="top1" href="">HELP <img id="circle" src="./image/help-circle.png" width="20px" alt=""></a>
             <!-- <a id="top1" href="">FAQ</a> -->
-            <div id="dropp" class="dropdown ms-3">
+            <!-- <div id="dropp" class="dropdown ms-3">
               <button id="acct" class=" btn btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="./image/person.png" width="18%" alt=""> Account
               </button>
@@ -30,9 +31,50 @@
                 <li><a id="loged" class="dropdown-item ms-3" href="#">HELP CENTER</a></li>
                 <li><a id="live" class="dropdown-item ms-1" href="#"><img src="./image/chatbox (1).png" alt="">LIVE CHAT</a></li>
               </ul>
+            </div> -->
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a href=""><img id="img" src="./image/Capture33.PNG" width="40%" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Faq</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Signup
+                      </a>
+                      <ul id="menus" class="dropdown-menu shadow">
+                        <li><a id="loged" class="dropdown-item ms-3" href="./login.html">LOGIN</a></li>
+                        <li><a id="loged" class="dropdown-item ms-3" href="./signup.html">SIGN-UP</a></li>
+                        <li><a id="loged" class="dropdown-item ms-3" href="#">FAQ</a></li>
+                        <li><a id="loged" class="dropdown-item ms-3" href="#">HELP CENTER</a></li>
+                        <li><a id="live" class="dropdown-item ms-1" href="#"><img src="./image/chatbox (1).png" alt="">LIVE CHAT</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true"></a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                   </div>
             </div>
+                </div> 
+              </div>
+              <!-- <span class="cartt"><a id="fill" href=""><img src="./image/cart.png" width="40px" alt=""></a></span> -->
+            </nav>
             <!-- <a id="top1" href="./login.html">Login<a class="reg" href="./signup.html">Register</a></a> -->
-            <a id="top2" href=""><img src="./image/call_FILL0_wght400_GRAD0_opsz48.png" width="20%" alt=""> Contact Us <br>
+            <!-- <a id="top2" href=""><img src="./image/call_FILL0_wght400_GRAD0_opsz48.png" width="20%" alt=""> Contact Us <br>
               +2347086188612</a>
               <div class="serh">
               <input id="input" type="text" placeholder="Search items"><span id=searchin><img src="./image/search_FILL0_wght400_GRAD0_opsz48.png" width="10%" alt=""></span>
@@ -40,7 +82,7 @@
             </div>
             <span class="cartt"><a id="fill" href=""><img src="./image/cart.png" width="40px" alt=""></a></span>
             </div>
-        </div>
+        </div> -->
     </div>
       <marquee class="marquee" behavior="" direction="left">N A S      -      G A D G E T S | LOKOJA PHONE STORE 
         <p class="swap text-center">🌐We Buy, Sell, Swap New/Used Devices & Gadgets <img src="./image/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" width="2%" alt=""></p>
@@ -77,10 +119,12 @@
               iPhone 14 Pro Max</h3>
             <span class="appone">The ultimate iPhone.</span>
             <p id="form">From $999</p>
+            <div class="crt">
           <button id="watch" ><a class="wath" href="https://wa.me/c/2347041186144">Buy</a></button>
           <button id="watch1" onclick="saveTo('./image/pro-promax (1).jpg','$999','The ultimate iPhone.')" ><a class="wathh">Add Cart</a></button>
+        </div>
           </div>
-          <div id="SE" class="col-lg col-md-5 col-sm-11">
+          <div id="SE" class="col-lg col-md-5 col-sm-11 sm-mt-5">
             <img id="promax" src="./image/pro-promax (8).jpg" alt="">
             <h3 class="busOne">New
               iPhone 14 & <br>
@@ -96,13 +140,13 @@
               iPhone 13</h3>
             <span class="apptwo">As amazing as ever.</span> 
             </span>
-            <p id="form3">From $599</p>
+            <p id="form3" >From $599</p>
             <button id="watch" ><a class="wath" href="https://wa.me/c/2347041186144">Buy</a></button>
             <button id="watch1" onclick="saveTo('./image/pro-promax (7).jpg','$599','As amazing as ever.')"  ><a class="wathh">Add Cart</a></button>
           </div>
           <div id="SES" class="col-lg col-md-5 col-sm-11">
-            <img id="promax" src="./image/compare_iphone_se__d5blqx1pgymq_large.jpg" alt="">
-            <h3 class="busTwo ms-5">iPhone SE <br> iPhone</h3>
+            <img id="promax" class="mt-4" src="./image/compare_iphone_se__d5blqx1pgymq_large.jpg" alt="">
+            <h3 class="bus">iPhone SE</h3>
             <span class="appthree ms-3">Serious power. Serious value.</span> 
             </span>
             <p id="form2">From $429</p>
@@ -176,10 +220,10 @@
       <div id="cardd" class="card text-bg-ligt mt-5 shadow rounded">
         <img id="hero" src="./image/hero wonder.jpg" class="card-img" alt="...">
         <!-- <img id="swap" src="./image/pro-promax (4).jpg" alt=""> -->
-        <div class="card-img-overlay">
+        <!-- <div  class="card-img-overlay">
           <h5 id="hIP" class="card-title">SWITCHING TO IPHONE</h5>
           <p id="para1" class="card-text">Switching iPhone is <br> super simple</p>
-        </div>
+        </div> -->
       </div>
       <h2 id="myHh" class="text-center">Which Apple Watch is right for you?</h2>
       <div id="os" class="card mb-3 shadow" style="max-width: 540px;">
